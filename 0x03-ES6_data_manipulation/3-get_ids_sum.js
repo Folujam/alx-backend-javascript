@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {*} students 
+ * @returns {Number}
+ */
 export default function getStudentIdsSum(students) {
   if (Array.isArray(students)) {
     return students.reduce(

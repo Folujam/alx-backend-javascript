@@ -1,6 +1,6 @@
 /**
  * returns an array of objects who are located in a specific city.
- * @param {{}[]} students 
+ * @param {{}[]} students
  * @param {string} city 
  * @returns 
  */

@@ -1,6 +1,10 @@
 /**
  * returns a list of students based on id
- * @param {id, firstName, location} students 
+ * @param {{
+ * id:
+ * firstName:
+ * location:
+ * }[]} students 
  * @returns 
  */
 export default function getListStudentIds(students) {

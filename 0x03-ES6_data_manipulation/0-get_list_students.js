@@ -1,6 +1,10 @@
 /**
  * gets list of students
- * @returns {{id, firstName, location}[]}a list of objs
+ * @returns {{
+ * id; Number,
+ * firstName: string,
+ * location:string
+ * }[]} a list of objs
  */
 export default function getListStudents() {
   return [

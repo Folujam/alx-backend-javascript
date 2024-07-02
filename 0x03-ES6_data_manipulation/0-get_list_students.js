@@ -1,6 +1,6 @@
 /**
  * gets list of students
- * @returns a list of objs
+ * @returns {{id, firstName, location}[]}a list of objs
  */
 export default function getListStudents() {
   return [

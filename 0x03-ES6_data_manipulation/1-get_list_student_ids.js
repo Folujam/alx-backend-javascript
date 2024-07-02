@@ -1,11 +1,11 @@
 /**
  * returns a list of students based on id
  * @param {{
- * id:
- * firstName:
- * location:
- * }[]} students 
- * @returns 
+ * id: Number,
+ * firstName: string,
+ * location: string
+ * }[]} students
+ * @returns
  */
 export default function getListStudentIds(students) {
   if (Array.isArray(students)) {

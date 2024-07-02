@@ -1,3 +1,7 @@
+/**
+ * returns a list
+ * @returns {Number}
+ */
 export default function groceriesList() {
   const values = [
     ['Apples', 10],

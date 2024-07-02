@@ -1,3 +1,10 @@
+/**
+ * 
+ * @param {*} students 
+ * @param {*} city 
+ * @param {*} newGrades 
+ * @returns 
+ */
 export default function updateStudentGradeByCity(students, city, newGrades) {
   const defaultGrade = { grade: 'N/A' };
  

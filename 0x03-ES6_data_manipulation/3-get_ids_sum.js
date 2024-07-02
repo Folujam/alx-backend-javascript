@@ -1,6 +1,10 @@
 /**
  * 
- * @param {*} students 
+ * @param {{
+ * id: Number,
+ * firstName: string,
+ * location: string
+ * }[]} students 
  * @returns {Number}
  */
 export default function getStudentIdsSum(students) {

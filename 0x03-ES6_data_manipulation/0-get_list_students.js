@@ -1,3 +1,7 @@
+/**
+ * gets list of students
+ * @returns a list of objs
+ */
 export default function getListStudents() {
   return [
       { id: 1, firstName: 'Guillaume', location: 'San Francisco' },

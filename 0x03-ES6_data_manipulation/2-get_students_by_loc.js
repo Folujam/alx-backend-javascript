@@ -6,7 +6,7 @@
  * location: string
  * }[]} students
  * @param {string} city 
- * @returns
+ * @returns {object}
  */
 export default function getStudentsByLocation(students, city) {
   if (Array.isArray(students)) {

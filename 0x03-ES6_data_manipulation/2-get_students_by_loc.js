@@ -5,7 +5,7 @@
  * firstName: string,
  * location: string
  * }[]} students - list of students
- * @param {string} city 
+ * @param {string} city
  * @returns {object}
  */
 export default function getStudentsByLocation(students, city) {

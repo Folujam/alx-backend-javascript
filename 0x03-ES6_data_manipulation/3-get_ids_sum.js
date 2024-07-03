@@ -4,7 +4,7 @@
  * id: Number,
  * firstName: string,
  * location: string
- * }[]} students 
+ * }[]} students
  * @returns {Number}
  */
 export default function getStudentIdsSum(students) {

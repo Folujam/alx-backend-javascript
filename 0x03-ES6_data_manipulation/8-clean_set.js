@@ -1,8 +1,8 @@
 /**
  * returns a clean set
- * @param {*} set 
- * @param {*} startString 
- * @returns 
+ * @param {*} set
+ * @param {*} startString
+ * @returns
  */
 export default function cleanSet(set, startString) {
   const parts = [];

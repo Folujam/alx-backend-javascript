@@ -1,5 +1,5 @@
 /**
- *   returns the sum of all the student ids..
+ * returns the sum of all the student ids..
  * @param {{
  * id: Number,
  * firstName: string,

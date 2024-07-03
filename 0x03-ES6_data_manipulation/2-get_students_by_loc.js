@@ -4,7 +4,7 @@
  * id: Number,
  * firstName: string,
  * location: string
- * }[]} students
+ * }[]} students - list of students
  * @param {string} city 
  * @returns {object}
  */

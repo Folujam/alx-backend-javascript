@@ -1,5 +1,5 @@
 /**
- * returns an array of objects who are located in a specific city.
+ * returns an arr of obj who are in a specific city.
  * @param {{
  * id: Number,
  * firstName: string,

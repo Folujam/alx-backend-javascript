@@ -1,6 +1,6 @@
 /**
- * this is a stdin prg
- */
+ * 
+ 
 const readline = require('readline');
 const process = require('process');
 
@@ -19,4 +19,17 @@ rl.on('close', () => {
     console.log('This important software is now closing');
   }
   process.exit(0);
+});
+*/
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
+
+process.stdin.on('readable', () => {
+
+  if (process.stdin.read()) {
+    process.stdout.write(`Your name is: ${process.stdin.read()}`);
+  }
+});
+
+process.stdin.on('end', () => {
+  process.stdout.write('This important software is now closing\n');
 });

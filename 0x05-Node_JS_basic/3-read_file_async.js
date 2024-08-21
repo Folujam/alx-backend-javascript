@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 /**
- * 
- * @param {string} filePath 
+ *
+ * @param {string} filePath
  */
 async function countStudents(filePath) {
   try {
@@ -24,6 +24,6 @@ async function countStudents(filePath) {
   } catch (error) {
     throw new Error('Cannot load the database');
   }
-};
+}
 
 module.exports = countStudents;

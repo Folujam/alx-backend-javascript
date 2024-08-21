@@ -1,6 +1,5 @@
 /**
- * 
- 
+ *
 const readline = require('readline');
 const process = require('process');
 
